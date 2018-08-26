@@ -7,6 +7,10 @@ using System.Net;
 
 namespace SalesforceUtility
 {
+    // <summary>
+    // A smalll wrapper around the SFMC.FuelSDK 
+    // for easy calls to Exact Target
+    // </summary>
     public class Salesforce
     {
         private ETClient SFClient;
